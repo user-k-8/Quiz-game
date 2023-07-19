@@ -1,0 +1,86 @@
+body{
+    background-color: rgb(2, 48, 97);
+}
+
+.slide-container{
+    background-color: rgb(2, 2, 63);
+    border-color: rgb(2, 2, 63) !important;
+}
+
+.slide-header{
+       color: rgb(26, 44, 238) !important;
+}
+
+.paragraph-text{
+    color: white;
+}
+
+.answer-button{
+    color: white !important;
+    border-color: rgb(26, 44, 238) !important;
+    text-align: left;
+}
+
+.text-center{
+    text-align: center !important;
+}
+.answer-button:active,
+.answer-button:focus {
+  box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.3) inset;
+  outline: none;
+  background-color: rgb(56, 71, 240);
+}
+
+.image{
+    
+   
+    overflow: hidden;
+    min-height: 250px;
+    min-width: 250px;
+   width: 32vw;
+   height: 32vw;
+}
+
+.answer-button:active {
+    background-color: rgb(56, 71, 240);
+  
+  }
+
+ #output-score{
+    color:white !important;
+  }
+  
+.output{
+    color: white;
+}
+
+.forward-button{
+    background-color: rgb(13, 225, 225);
+    width: 30px;
+    height:60px;
+    margin-right: 30px;
+    margin-top: 300px;
+    border-radius: 10px;
+    display: none;
+    opacity: 1;
+}
+
+.previous-button{
+    background-color: aqua;
+    width: 30px;
+    height:60px;
+    margin-left: 30px;
+    margin-top: 300px;
+    border-radius: 10px;
+    display: none;
+}
+
+.img-container{
+    text-align: center;
+}
+@media(max-width: 800px){
+
+    .img-container{
+        text-align: left;
+    }
+}
