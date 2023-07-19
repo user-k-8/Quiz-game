@@ -71,11 +71,11 @@ forwardButton.addEventListener("click", ()=>{
 
 //Storing answers
 const optionbuttons = document.querySelectorAll('button[type="button"]'); // selects buttons of type button
-optionbuttons.forEach(button=>{
-    button.addEventListener("click", ()=>{
+optionbuttons.forEach(button1=>{
+    button1.addEventListener("click", ()=>{
     
-    clickedButton = button;
-    quiz.dataset.buttonContent = button.textContent;
+    clickedButton = button1;
+    quiz.dataset.buttonContent = button1.textContent;
 
     })
 })
@@ -97,17 +97,19 @@ submitbuttons.forEach(button=>{
         const outputID =   document.getElementById(question.id);
          if(quiz.dataset.buttonContent.includes(question.answer) ){
             outputID.innerHTML ="Your answer is correct! ";
-            clickedButton.style.backgroundColor = "green";
+            clickedButton.style.backgroundColor = "rgb(56, 196, 48)";
             points.push(1);
             
           
            
          
          }
-         else  {
+         else {
             if(button.id.includes(question.id)){
             outputID.innerHTML =" Your answer is incorrect.";
-            clickedButton.style.backgroundColor = "red";
+            clickedButton.style.backgroundColor = "rgb(211, 31, 31)";
+
+            
             }
            
         }
