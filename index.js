@@ -100,7 +100,7 @@ submitbuttons.forEach(button=>{
             clickedButton.style.backgroundColor = "green";
             points.push(1);
             
-           break;
+          
            
          
          }
